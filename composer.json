@@ -1,0 +1,24 @@
+{
+    "name": "lsshu/ftp",
+    "description": "ftp packages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lsshu",
+            "email": "admin@lsshu.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lsshu\\Ftp\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lsshu\\Ftp\\ServiceProvider"
+            ]
+        }
+    }
+}
